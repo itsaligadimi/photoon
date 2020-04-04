@@ -1,0 +1,89 @@
+@font-face{
+    font-family: "mhe";
+    src: url("../fonts/MyHappyEndingRegular.ttf")format('truetype');
+}
+
+body, .container-fluid{
+    font-family: 'mhe';
+    min-height: 100vh;
+}
+
+.main-row{
+    top: 0;
+}
+
+#color_board{
+    top: 50%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    transform: translate(0,-50%);
+}
+
+#image_board{
+    top: 50%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    transform: translate(0,-50%);
+}
+
+#image_board div::first{
+    background-color: red;
+}
+
+#name{
+    font-size: 4em;
+    line-height: 1em;
+}
+
+#desc{
+    font-size: 2em;
+    line-height: 1em;
+}
+
+#main_color_board{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;   
+    background: aquamarine;
+}
+
+.selected_color{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background: aqua;
+}
+
+#color_2, #color_4{
+    margin-top: 60px;
+}
+
+#color_1{
+    margin-bottom: 8px;
+}
+
+#color_2{
+    margin-left: 8px;
+}
+
+#color_3{
+    margin-top: 8px;
+}
+
+#color_4{
+    margin-right: 8px;
+}
+
+#the_button{
+    min-width: 150px;
+    width: 100%;
+}
+
+#the_image{
+    min-width: 150px;
+    width: 100%;
+    height: auto;
+}
+

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Loading Bootstrap -->
+        <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+        <link href="css/colors.css" rel="stylesheet">
+
+        <!-- Loading Flat UI Pro -->
+        <link href="css/flat-ui.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/style-sm.css" rel="stylesheet">
+    </head>
+    <body class="bg-3">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-center pt-3">
+                <span id="name" class="text-2">Photoon</span>
+            </div>
+            <div class="d-flex justify-content-center">
+                <span id="desc" class="text-2">This just a description or something!</span>
+            </div>
+
+            <div id="action_board" class="row position-absolute h-100 w-100 main-row">
+                <div class="col-sm-12 col-md-6">
+                    <div id="color_board">
+                        <div class="d-flex justify-content-center">
+                            <span id="color_1" class="selected_color"></span>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <span id="color_4" class="selected_color"></span>
+                            <span id="main_color_board"></span>
+                            <span id="color_2" class="selected_color"></span>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <span id="color_3" class="selected_color"></span>
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div id="image_board" class="d-flex justify-content-center">
+                        <div class="text-center">
+                            <img id="the_image" class="" src=""/>
+                            <button id="the_button" class="btn btn-primary">Load image</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="scripts/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</script>
+
+    <!-- Bootstrap 4 requires Popper.js -->
+    <script src="scripts/umd/popper.min.js" crossorigin="anonymous"></script>
+
+    <!--<script src="http://vjs.zencdn.net/6.6.3/video.js"></script>-->
+
+    <script src="scripts/flat-ui.js"></script>
+    <script src="scripts/colorpicker.js"></script>
+    <script src="scripts/processor.js"></script>
+
+    <script src="scripts/caman.full.min.js"></script>
+    </body>
+</html>
